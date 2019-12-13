@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 from tqdm import tqdm
+import urllib.request
 print()
 
 def output_dim(input_size, filter_size, stride):
@@ -19,9 +20,21 @@ def input_filter_val(f):
 	return val
 
 
+def urlToImage(url):
+  resp = urllib.request.urlopen(url)
+  img = np.asarray(bytearray(resp.read()), dtype='uint8')
+  img = cv2.imdecode(img, cv2.IMREAD_COLOR)
+  img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+  return img
+ 
+
+
 # Importing the Image
-img = cv2.imread('test1.jpg', 0)
-# img = cv2.resize(img, (100, 100)) # Resizing temporarily for faster calculations
+print('(Leave blank to use default image)')
+URL = input('Enter the URL of the Image : ')
+img = cv2.imread('dummy.jpg', 0) if not URL else urlToImage(URL)
+print()
 
 # PARAMETERS
 print('------- PARAMETERS -------')
@@ -86,8 +99,8 @@ plt.title('Original Image')
 ax2 = plt.subplot(1, 2, 2)
 ax2.imshow(output_img, cmap='gray')
 plt.title('Filtered Image')
-
 plt.show()
+plt.savefig('process.png')
 
 
 print('End..!')
