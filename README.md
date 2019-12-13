@@ -9,7 +9,8 @@ How to run:
   3) Click on the 'main.py' (Left side of the screen, under the Files Tab)
   4) Click on 'run'.
 
-<center>[![Run on Repl.it](https://repl.it/badge/github/ParthikB/filter_visuals)](https://repl.it/github/ParthikB/filter_visuals)
+<center>
+[![Run on Repl.it](https://repl.it/badge/github/ParthikB/filter_visuals)](https://repl.it/github/ParthikB/filter_visuals)
 </center>
 
 <hr>
