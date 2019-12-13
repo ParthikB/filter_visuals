@@ -103,7 +103,7 @@ print(f'Time Taken : {round(time.time()-start, 2)}s')
 
 # PLOTTING
 ax1 = plt.subplot(1, 2, 1)
-ax1.imshow(img)
+ax1.imshow(img, cmap='gray)
 plt.title('Original Image')
 ax2 = plt.subplot(1, 2, 2)
 ax2.imshow(output_img, cmap='gray')
