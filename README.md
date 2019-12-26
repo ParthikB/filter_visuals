@@ -8,6 +8,8 @@ How to run:
   2) Wait for the terminal to load.
   3) Click on the 'main.py' (Left side of the screen, under the Files Tab)
   4) Click on 'run'.
+  5) Follow further instructions.
+  6) Chill!
 
 [![Run on Repl.it](https://repl.it/badge/github/ParthikB/filter_visuals)](https://repl.it/github/ParthikB/filter_visuals)
 
