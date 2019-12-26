@@ -1,5 +1,5 @@
 # filter_visuals
-A simple program which shows the effects of filters applied to an image.
+A simple program which shows the effects of filters applied to an image in a CNN (Convolutional Neural Network).
 
 <hr>
 
