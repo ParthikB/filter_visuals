@@ -12,3 +12,12 @@ How to run:
 [![Run on Repl.it](https://repl.it/badge/github/ParthikB/filter_visuals)](https://repl.it/github/ParthikB/filter_visuals)
 
 <hr>
+
+
+## Examples:
+
+#### Horizontal Filter
+![](horizontal_filter.png)
+
+#### Vertical Filter
+![](vertical_filter.png)
