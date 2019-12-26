@@ -17,7 +17,7 @@ How to run:
 ## Examples:
 
 #### Horizontal Filter
-![](horizontal_filter.png)
+![](horizontal_example.png)
 
 #### Vertical Filter
-![](vertical_filter.png)
+![](vertical_example.png)
